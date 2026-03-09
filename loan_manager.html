@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kredit Menejer v2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --surface2: #222637;
+            --border: rgba(255, 255, 255, 0.07);
+            --accent: #6366f1;
+            --accent-hover: #4f46e5;
+            --accent2: #06b6d4;
+            --green: #10b981;
+            --amber: #f59e0b;
+            --rose: #f43f5e;
+            --text: #f1f5f9;
+            --muted: #94a3b8;
+            --radius: 16px;
+            --nav-height: 60px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            padding-bottom: 80px;
+            /* For mobile floating btn */
+        }
+
+        /* ── Typography & Utils ── */
+        h1,
+        h2,
+        h3 {
+            font-weight: 700;
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #818cf8, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .text-green {
+            color: var(--green) !important;
+        }
+
+        .text-amber {
+            color: var(--amber) !important;
+        }
+
+        .text-rose {
+            color: var(--rose) !important;
+        }
+
+        .text-muted {
+            color: var(--muted);
+        }
+
+        .fw-600 {
+            font-weight: 600;
+        }
+
+        .fw-800 {
+            font-weight: 800;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 20px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-primary:active {
+            transform: translateY(2px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        .btn-danger {
+            background: rgba(244, 63, 94, 0.1);
+            color: var(--rose);
+            border: 1px solid rgba(244, 63, 94, 0.2);
+        }
+
+        .fab {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            border-radius: 28px;
+            background: var(--accent);
+            color: white;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
+            cursor: pointer;
+            z-index: 90;
+            border: none;
+            transition: transform 0.2s;
+        }
+
+        .fab:active {
+            transform: scale(0.95);
+        }
+
+        /* ── Layout ── */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            position: sticky;
+            top: 0;
+            background: rgba(15, 17, 23, 0.8);
+            backdrop-filter: blur(12px);
+            padding: 16px 0;
+            z-index: 50;
+        }
+
+        .header-left h1 {
+            font-size: 1.4rem;
+        }
+
+        /* ── Views ── */
+        .view-section {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .view-section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ── Home: Summary Cards ── */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        @media(min-width: 768px) {
+            .kpi-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 16px;
+            }
+        }
+
+        .kpi-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 16px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .kpi-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .kpi-card.purple::before {
+            background: linear-gradient(90deg, #6366f1, #818cf8);
+        }
+
+        .kpi-card.cyan::before {
+            background: linear-gradient(90deg, #06b6d4, #67e8f9);
+        }
+
+        .kpi-card.green::before {
+            background: linear-gradient(90deg, #10b981, #6ee7b7);
+        }
+
+        .kpi-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            color: var(--muted);
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .kpi-value {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--text);
+        }
+
+        @media(min-width: 768px) {
+            .kpi-value {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* ── Home: Loan List ── */
+        .loan-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .loan-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .loan-card:active {
+            transform: scale(0.98);
+        }
+
+        @media(min-width: 768px) {
+            .loan-card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            }
+        }
+
+        .loan-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .loan-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+
+        .loan-bank {
+            font-size: 0.8rem;
+            color: var(--accent2);
+            font-weight: 500;
+        }
+
+        .loan-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .stat-item {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .stat-val {
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+
+        .progress-wrap {
+            margin-top: 10px;
+        }
+
+        .progress-bar {
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 99px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #6366f1, #06b6d4);
+            border-radius: 99px;
+            transition: width 0.5s;
+        }
+
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            margin-top: 6px;
+            color: var(--muted);
+        }
+
+        /* ── Empty State ── */
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            background: var(--surface);
+            border-radius: var(--radius);
+            border: 1px dashed var(--border);
+        }
+
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.5;
+        }
+
+        /* ── Detail View ── */
+        .detail-header {
+            margin-bottom: 20px;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+            cursor: pointer;
+        }
+
+        .detail-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        /* Charts Grid in Detail */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        @media(min-width: 768px) {
+            .charts-grid {
+                grid-template-columns: 2fr 1fr;
+                gap: 20px;
+            }
+        }
+
+        .chart-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px;
+        }
+
+        .chart-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        /* Table in Detail */
+        .table-container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+            min-width: 600px;
+        }
+
+        th,
+        td {
+            padding: 12px 16px;
+            text-align: right;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            color: var(--muted);
+            font-weight: 600;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+        }
+
+        th:first-child,
+        td:first-child {
+            text-align: left;
+        }
+
+        td.paid {
+            background: rgba(16, 185, 129, 0.05);
+        }
+
+        td.paid-text {
+            color: var(--green);
+            font-weight: 600;
+            text-align: center;
+        }
+
+        /* ── Modals ── */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(4px);
+            z-index: 100;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+        }
+
+        @media(min-width: 768px) {
+            .modal-overlay {
+                align-items: center;
+            }
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-content {
+            background: var(--surface);
+            width: 100%;
+            max-width: 500px;
+            border-radius: 24px 24px 0 0;
+            padding: 24px;
+            transform: translateY(100%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        @media(min-width: 768px) {
+            .modal-content {
+                border-radius: 20px;
+                transform: scale(0.95);
+            }
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+
+        @media(min-width: 768px) {
+            .modal-overlay.active .modal-content {
+                transform: scale(1);
+            }
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--muted);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .form-control {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 12px 16px;
+            color: white;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: rgba(99, 102, 241, 0.05);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .modal-actions {
+            margin-top: 24px;
+            display: grid;
+            gap: 10px;
+        }
+
+        /* Payment inputs in table */
+        .pay-input {
+            width: 100px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border);
+            color: white;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+        }
+
+        .btn-pay-sm {
+            background: var(--accent);
+            border: none;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        /* ── OCR Upload UI ── */
+        #ocrLoader {
+            display: none;
+            text-align: center;
+            padding: 16px;
+            margin-top: 16px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 12px;
+            color: var(--accent);
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(99, 102, 241, 0.3);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .file-upload-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .file-upload-wrapper input[type=file] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* OCR Review Table */
+        .ocr-table-wrapper {
+            max-height: 40vh;
+            overflow-y: auto;
+            margin-top: 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+
+        .ocr-input {
+            width: 100%;
+            min-width: 80px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid transparent;
+            color: white;
+            padding: 6px;
+            border-radius: 4px;
+            text-align: right;
+        }
+
+        .ocr-input:focus {
+            border-color: var(--accent);
+            outline: none;
+        }
+
+        .ocr-date-input {
+            text-align: left;
+            min-width: 90px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ====== VIEW: HOME ====== -->
+        <div id="viewHome" class="view-section active">
+            <div class="header">
+                <div class="header-left">
+                    <h1 class="text-gradient">Kredit Menejer</h1>
+                    <p class="text-muted" style="font-size: 0.8rem; margin-top:2px;">Barcha qarzlar bitta joyda</p>
+                </div>
+            </div>
+
+            <!-- Overall KPIs -->
+            <div class="kpi-grid">
+                <div class="kpi-card purple">
+                    <div class="kpi-label">Jami Qarz</div>
+                    <div class="kpi-value" id="kpiTotalDebt">0</div>
+                </div>
+                <div class="kpi-card cyan">
+                    <div class="kpi-label">To'langan</div>
+                    <div class="kpi-value" id="kpiTotalPaid">0</div>
+                </div>
+                <div class="kpi-card green">
+                    <div class="kpi-label">Qoldiq</div>
+                    <div class="kpi-value" id="kpiTotalRemain">0</div>
+                </div>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px;">
+                <h2 style="font-size: 1.1rem;">Mening kreditlarim</h2>
+            </div>
+
+            <div id="loanList" class="loan-list">
+                <!-- Loans inserted here by JS -->
+            </div>
+
+            <div id="emptyState" class="empty-state hidden">
+                <div class="empty-icon">🎒</div>
+                <h3 style="margin-bottom:8px;">Kreditlar yo'q</h3>
+                <p class="text-muted" style="font-size:0.9rem; margin-bottom:16px;">Yangi kredit qo'shish uchun pastdagi
+                    tugmani bosing</p>
+                <button class="btn btn-outline" onclick="openLoanModal()">+ Birinchi kreditni qo'shish</button>
+                <div style="margin-top: 16px;">
+                    <button class="btn btn-primary" style="background:var(--green); border-color:var(--green)"
+                        onclick="importReadySchedule()">+ Maxsus Jadvalni Yuklash (Test)</button>
+                </div>
+            </div>
+
+            <div style="text-align:center; padding: 20px 0;">
+                <div class="file-upload-wrapper">
+                    <button class="btn btn-outline"
+                        style="font-size: 0.85rem; padding: 10px 20px; width:100%; max-width: 300px; border-color: var(--accent); color: var(--accent)">
+                        📷 Rasm yoki Chek orqali qo'shish
+                    </button>
+                    <input type="file" id="inpOcrFile" accept="image/*" onchange="handleOcrUpload(event)">
+                </div>
+                <div id="ocrLoader">
+                    <div class="spinner"></div><span id="ocrStatusMsg">Rasmdan matn o'qilmoqda, kuting...</span>
+                </div>
+            </div>
+
+            <button class="fab" onclick="openLoanModal()">+</button>
+        </div>
+
+
+        <!-- ====== VIEW: LOAN DETAIL ====== -->
+        <div id="viewDetail" class="view-section">
+            <div class="header" style="flex-wrap: wrap; gap:10px;">
+                <div>
+                    <a class="back-btn" onclick="showView('Home')">← Orqaga</a>
+                    <h1 id="detTitle" class="fw-800 text-gradient">Kredit Nomi</h1>
+                    <p id="detBank" class="text-muted" style="font-size:0.85rem; margin-top:4px;">Bank nomi</p>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi-card purple">
+                    <div class="kpi-label">Boshlang'ich qarz</div>
+                    <div class="kpi-value" id="detInitial">0</div>
+                </div>
+                <div class="kpi-card cyan">
+                    <div class="kpi-label">Qoldiq</div>
+                    <div class="kpi-value" id="detRemain">0</div>
+                </div>
+            </div>
+
+            <div class="detail-actions">
+                <button class="btn btn-primary" style="flex:1" onclick="focusNextPayment()">+ To'lov qilish</button>
+                <button class="btn btn-danger" onclick="deleteCurrentLoan()">O'chirish</button>
+            </div>
+
+            <div class="charts-grid" style="margin-top:24px;">
+                <div class="chart-card">
+                    <div class="chart-title">Qoldiq va Asosiy To'lovlar</div>
+                    <div style="position:relative; height:200px; width:100%;">
+                        <canvas id="detChartLine"></canvas>
+                    </div>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-title">Status</div>
+                    <div style="position:relative; height:200px; width:100%; display:flex; justify-content:center;">
+                        <canvas id="detChartDonut"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="font-size:1.1rem; margin-bottom:12px;">To'lov jadvali</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Sana</th>
+                            <th>Qoldiq</th>
+                            <th>Asosiy</th>
+                            <th>Foiz</th>
+                            <th>Jami</th>
+                            <th style="text-align:center;">Harakat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="detTableBody">
+                        <!-- Rows will be injected -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ====== MODAL: ADD LOAN ====== -->
+    <div id="modalLoan" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Yangi Kredit</h2>
+                <button class="modal-close" onclick="closeModal('modalLoan')">×</button>
+            </div>
+            <form id="formLoan" onsubmit="saveLoan(event)">
+                <div class="form-group">
+                    <label>Kredit nomi (maqsadi)</label>
+                    <input type="text" id="inpLName" class="form-control" placeholder="Masalan: Avto kredit, Ipoteka"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label>Bank yoki tashkilot</label>
+                    <input type="text" id="inpLBank" class="form-control" placeholder="Masalan: NBU Bank">
+                </div>
+                <div class="form-group">
+                    <label>Asosiy qarz summasi (UZS)</label>
+                    <input type="number" id="inpLAmount" class="form-control" placeholder="30000000" required
+                        min="1000">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Yillik foiz (%)</label>
+                        <input type="number" id="inpLRate" class="form-control" placeholder="24" required step="0.1"
+                            min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Muddat (oy)</label>
+                        <input type="number" id="inpLTerm" class="form-control" placeholder="36" required min="1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Birinchi to'lov sanasi</label>
+                    <input type="date" id="inpLDate" class="form-control" required>
+                </div>
+                <div class="modal-actions">
+                    <button type="submit" class="btn btn-primary" style="width:100%">Saqlash va Jadval tuzish</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ====== MODAL: OCR REVIEW ====== -->
+    <div id="modalOcr" class="modal-overlay">
+        <div class="modal-content" style="max-width: 800px;">
+            <div class="modal-header">
+                <h2>Ma'lumotlarni tasdiqlang</h2>
+                <button class="modal-close" onclick="closeModal('modalOcr')">×</button>
+            </div>
+            <p class="text-muted" style="font-size:0.85rem; margin-bottom:16px;">Rasmdan o'qilgan ma'lumotlar ba'zan
+                xato bo'lishi mumkin. Saqlashdan oldin raqamlarni birma-bir tekshirib, xato bo'lsa to'g'rilab chiqing.
+            </p>
+
+            <div class="form-group">
+                <label>Kredit Nomi</label>
+                <input type="text" id="ocrLoanName" class="form-control" value="Rasm orqali qo'shildi">
+            </div>
+
+            <div class="ocr-table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="text-align:left">Sana</th>
+                            <th>Qoldiq</th>
+                            <th>Asosiy To'lov</th>
+                            <th>Foiz</th>
+                            <th>Jami</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ocrTableBody">
+                        <!-- Rows injected -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="modal-actions">
+                <button type="button" class="btn btn-primary" style="width:100%" onclick="saveOcrSchedule()">Tekshirdim,
+                    Saqlash</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== JS APP LOGIC ====== -->
+    <script>
+        /* 
+         * DATA STRUCTURE:
+         * loans: [
+         *   { id, name, bank, initialAmount, rate, term, startDate, schedule: [...] }
+         * ]
+         * schedule item: { period, date, balanceOrigin, principal, interest, total, paidAmount, isPaid }
+         */
+
+        let db = JSON.parse(localStorage.getItem('loanManagerDb')) || { loans: [] };
+        let currentLoanId = null;
+
+        // Charts instances
+        let detChartLineIns = null;
+        let detChartDonutIns = null;
+
+        // Chart Details config
+        Chart.defaults.color = '#94a3b8';
+        Chart.defaults.font.family = 'Inter';
+
+        function saveDb() {
+            localStorage.setItem('loanManagerDb', JSON.stringify(db));
+        }
+
+        // FORMATTERS
+        const fmt = (n) => Number(n).toLocaleString('uz-UZ', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+        const fmtM = (n) => {
+            if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+            if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+            return n;
+        };
+
+        // VIEWS MANAGEMENT
+        function showView(viewName) {
+            document.querySelectorAll('.view-section').forEach(el => el.classList.remove('active'));
+            document.getElementById('view' + viewName).classList.add('active');
+
+            if (viewName === 'Home') renderHome();
+            if (viewName === 'Detail') renderDetail();
+        }
+
+        // MODALS
+        function openLoanModal() {
+            document.getElementById('formLoan').reset();
+            document.getElementById('inpLDate').valueAsDate = new Date();
+            document.getElementById('modalLoan').classList.add('active');
+        }
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('active');
+        }
+
+        // CORE LOGIC: calculate schedule (Annuity)
+        function createSchedule(amount, rateYear, term, startDtStr) {
+            let r = (rateYear / 100) / 12;
+            let n = term;
+            let p = amount;
+
+            // Annuity formula: M = P[r(1+r)^n] / [(1+r)^n - 1]
+            let monthlyTotal = 0;
+            if (r > 0) {
+                monthlyTotal = p * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+            } else {
+                monthlyTotal = p / n; // 0% interest case
+            }
+
+            let sched = [];
+            let currBal = p;
+            let date = new Date(startDtStr);
+
+            for (let i = 1; i <= n; i++) {
+                let interest = currBal * r;
+                let principal = monthlyTotal - interest;
+
+                // rounding adjustments for last payment
+                if (i === n) {
+                    principal = currBal;
+                    monthlyTotal = principal + interest;
+                }
+
+                sched.push({
+                    period: i,
+                    date: date.toISOString().split('T')[0],
+                    balanceOrigin: currBal,
+                    principal: principal,
+                    interest: interest,
+                    totalScheduled: monthlyTotal,
+                    paidAmount: 0,
+                    isPaid: false
+                });
+
+                currBal -= principal;
+                // add 1 month
+                date.setMonth(date.getMonth() + 1);
+            }
+            return sched;
+        }
+
+        function saveLoan(e) {
+            e.preventDefault();
+            let name = document.getElementById('inpLName').value;
+            let bank = document.getElementById('inpLBank').value;
+            let amt = parseFloat(document.getElementById('inpLAmount').value);
+            let rate = parseFloat(document.getElementById('inpLRate').value);
+            let term = parseInt(document.getElementById('inpLTerm').value);
+            let date = document.getElementById('inpLDate').value;
+
+            let sched = createSchedule(amt, rate, term, date);
+
+            let loan = {
+                id: Date.now().toString(),
+                name, bank,
+                initialAmount: amt,
+                rate, term, startDate: date,
+                schedule: sched
+            };
+
+            db.loans.push(loan);
+            saveDb();
+            closeModal('modalLoan');
+            renderHome();
+        }
+
+        // --- IMPORT SPECIFIC SCHEDULE (From Image) ---
+        function importReadySchedule() {
+            const rawData = [
+                ["02.04.2026", 51192040.80, 0.00, 1080416.08, 1080416.08],
+                ["04.05.2026", 51192040.80, 0.00, 1032255.95, 1032255.95],
+                ["02.06.2026", 51192040.80, 0.00, 935481.95, 935481.95],
+                ["02.07.2026", 51192040.80, 0.00, 967739.95, 967739.95],
+                ["03.08.2026", 51192040.80, 0.00, 1032255.94, 1032255.94],
+                ["02.09.2026", 51192040.80, 0.00, 967739.95, 967739.95],
+                ["02.10.2026", 51192040.80, 0.00, 967739.95, 967739.95],
+                ["02.11.2026", 51192040.80, 0.00, 999997.95, 999997.95],
+                ["02.12.2026", 51192040.80, 0.00, 967739.95, 967739.95],
+                ["04.01.2027", 51192040.80, 0.00, 1064513.94, 1064513.94],
+                ["02.02.2027", 43869578.57, 7322462.23, 935481.95, 8257944.18],
+                ["02.03.2027", 33169445.20, 10700133.37, 774027.64, 11474161.01],
+                ["02.04.2027", 22326676.99, 10842768.21, 647940.12, 11490708.33],
+                ["03.05.2027", 11272103.47, 11054573.52, 436134.81, 11490708.33],
+                ["02.06.2027", 0.00, 11272103.47, 213089.08, 11485192.55]
+            ];
+
+            let sched = rawData.map((row, idx) => {
+                // row format [date, balance, principal, interest, total]
+                return {
+                    period: idx + 1,
+                    date: row[0],
+                    balanceOrigin: row[1],
+                    principal: row[3], // From user data: Asusiy = row[2], but wait... 
+                    // Let's look at user's columns:
+                    // Sana         Qoldiq summa    Asosiy to'lov  Foiz          Jami to'lov
+                    // 02.04.2026   51 192 040,80   0,00           1 080 416,08  1 080 416,08
+                    // row[0] is Date. row[1] is Balance. row[2] is Asosiy. row[3] is Foiz. row[4] is Jami.
+                    interest: row[3],
+                    totalScheduled: row[4],
+                    paidAmount: 0,
+                    isPaid: false
+                };
+            });
+            // Correct mapping for principal, we mapped row[3] to principal up there which is wrong, fixing:
+            sched.forEach(s => {
+                s.principal = rawData[s.period - 1][2];
+            });
+
+            let loan = {
+                id: Date.now().toString(),
+                name: "Maxsus Jadval",
+                bank: "Bank",
+                initialAmount: 51192040.80, // exact sum from new data
+                rate: 0, // variable rate in reality, mostly pre-calculated
+                term: rawData.length,
+                startDate: rawData[0][0],
+                schedule: sched
+            };
+
+            db.loans.push(loan);
+            saveDb();
+
+            alert("Yangi jadval muvaffaqiyatli qo'shildi! 51.1M UZS");
+            renderHome();
+        }
+
+        let ocrParsedRows = [];
+
+        // --- OCR TESSERACT INTEGRATION ---
+        async function handleOcrUpload(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const loader = document.getElementById('ocrLoader');
+            const status = document.getElementById('ocrStatusMsg');
+            loader.style.display = 'block';
+            status.innerText = "Tesseract ishga tushmoqda...";
+
+            try {
+                const worker = await Tesseract.createWorker('rus+eng');
+                status.innerText = "Rasmni o'qimoqda (Bu biroz vaqt oladi)...";
+
+                const ret = await worker.recognize(file);
+                const text = ret.data.text;
+
+                console.log("OCR MATN: \n", text);
+                await worker.terminate();
+
+                parseOcrText(text);
+
+            } catch (err) {
+                console.error(err);
+                alert("Rasmni o'qishda xatolik yuz berdi.");
+            } finally {
+                loader.style.display = 'none';
+                e.target.value = ''; // reset
+            }
+        }
+
+        function parseOcrText(text) {
+            const lines = text.split('\n');
+            let results = [];
+
+            // Attempting to match rows that start with a date like DD.MM.YYYY
+            // Ex: 27.06.2024 292 410 000,00 32 490 000,00 0,00 32 490 000,00
+            // Because OCR is messy, we just collect potential rows.
+
+            const dateRegex = /^(\d{2})[.,](\d{2})[.,](\d{4})/;
+
+            for (const line of lines) {
+                const cleanLine = line.trim().replace(/,/g, '.'); // commas to dots for math
+                const match = cleanLine.match(dateRegex);
+                if (match) {
+                    const dateStr = `${match[1]}.${match[2]}.${match[3]}`; // keep DD.MM.YYYY
+                    // find all numbers in the rest of the line
+                    const restOfLine = cleanLine.substring(match[0].length);
+                    // Clean out spaces within numbers (e.g. 292 410.00 -> 292410.00)
+                    // A rough heuristic: remove spaces that are bounded by numbers
+                    let noSpaceNumStr = restOfLine.replace(/(\d)\s+(?=\d)/g, '$1');
+
+                    // Extract floats
+                    let numMatch = noSpaceNumStr.match(/(\d+\.\d{1,2}|\d+)/g);
+
+                    if (numMatch && numMatch.length >= 4) {
+                        // Typically: Balance, Principal, Interest, Total
+                        results.push({
+                            date: dateStr,
+                            balance: parseFloat(numMatch[0]) || 0,
+                            principal: parseFloat(numMatch[1]) || 0,
+                            interest: parseFloat(numMatch[2]) || 0,
+                            total: parseFloat(numMatch[3]) || 0
+                        });
+                    }
+                }
+            }
+
+            if (results.length === 0) {
+                alert("Jadval qatorlarini aniqlab bo'lmadi. Iltimos, boshqa rasm ishlating yoki rasmni aniqroq oling.");
+                return;
+            }
+
+            // Show modal
+            ocrParsedRows = results;
+            renderOcrTable();
+            document.getElementById('modalOcr').classList.add('active');
+        }
+
+        function renderOcrTable() {
+            const tbody = document.getElementById('ocrTableBody');
+            let html = '';
+            ocrParsedRows.forEach((row, idx) => {
+                html += `
+        <tr>
+          <td><input class="ocr-input ocr-date-input" type="text" value="${row.date}" id="o_d_${idx}"></td>
+          <td><input class="ocr-input" type="number" step="0.01" value="${row.balance}" id="o_b_${idx}"></td>
+          <td><input class="ocr-input" type="number" step="0.01" value="${row.principal}" id="o_p_${idx}"></td>
+          <td><input class="ocr-input" type="number" step="0.01" value="${row.interest}" id="o_i_${idx}"></td>
+          <td><input class="ocr-input" type="number" step="0.01" value="${row.total}" id="o_t_${idx}"></td>
+        </tr>
+      `;
+            });
+            tbody.innerHTML = html;
+        }
+
+        function saveOcrSchedule() {
+            // Re-collect data from inputs since user might have edited
+            let sched = [];
+            let initialAmt = 0;
+
+            for (let i = 0; i < ocrParsedRows.length; i++) {
+                let dateVal = document.getElementById(`o_d_${i}`).value;
+                let bal = parseFloat(document.getElementById(`o_b_${i}`).value) || 0;
+                let prin = parseFloat(document.getElementById(`o_p_${i}`).value) || 0;
+                let int = parseFloat(document.getElementById(`o_i_${i}`).value) || 0;
+                let tot = parseFloat(document.getElementById(`o_t_${i}`).value) || 0;
+
+                if (i === 0) initialAmt = bal + prin; // rough estimate of starting amt before 1st payment
+
+                sched.push({
+                    period: i + 1,
+                    date: dateVal,
+                    balanceOrigin: bal,
+                    principal: prin,
+                    interest: int,
+                    totalScheduled: tot,
+                    paidAmount: 0,
+                    isPaid: false
+                });
+            }
+
+            let loan = {
+                id: "ocr_" + Date.now().toString(),
+                name: document.getElementById('ocrLoanName').value || "Rasm Orqali Kredit",
+                bank: "Kiritilgan",
+                initialAmount: initialAmt || sched[0].balanceOrigin,
+                rate: 0,
+                term: sched.length,
+                startDate: sched[0].date,
+                schedule: sched
+            };
+
+            db.loans.push(loan);
+            saveDb();
+            closeModal('modalOcr');
+            renderHome();
+        }
+
+        // --- HOME VIEW ---
+        function renderHome() {
+            const listEl = document.getElementById('loanList');
+            const emptyEl = document.getElementById('emptyState');
+
+            if (db.loans.length === 0) {
+                listEl.innerHTML = '';
+                emptyEl.classList.remove('hidden');
+                document.getElementById('kpiTotalDebt').innerText = '0';
+                document.getElementById('kpiTotalPaid').innerText = '0';
+                document.getElementById('kpiTotalRemain').innerText = '0';
+                return;
+            }
+            emptyEl.classList.add('hidden');
+
+            let html = '';
+            let globalDebt = 0;
+            let globalPaid = 0;
+            let globalRemain = 0;
+
+            db.loans.forEach(loan => {
+                let lPrincipalBase = loan.initialAmount;
+                let lPaidPrin = loan.schedule.reduce((sum, s) => s.isPaid ? sum + s.principal : sum, 0);
+                let lRemainPrin = lPrincipalBase - lPaidPrin;
+
+                globalDebt += lPrincipalBase;
+                globalPaid += lPaidPrin;
+                globalRemain += lRemainPrin;
+
+                let pct = (lPaidPrin / lPrincipalBase) * 100;
+
+                html += `
+        <div class="loan-card" onclick="openLoanDetail('${loan.id}')">
+          <div class="loan-header">
+            <div>
+              <div class="loan-title">${loan.name}</div>
+              <div class="loan-bank">${loan.bank || 'Bank'}</div>
+            </div>
+            <div class="fw-800 text-gradient" style="font-size:1.1rem">${fmtM(lRemainPrin)}</div>
+          </div>
+          
+          <div class="loan-stats">
+            <div class="stat-item">
+              <div class="kpi-label" style="font-size:0.65rem">To'landi</div>
+              <div class="stat-val text-green">${fmtM(lPaidPrin)}</div>
+            </div>
+            <div class="stat-item">
+              <div class="kpi-label" style="font-size:0.65rem">Muddat</div>
+              <div class="stat-val text-muted">${loan.term} oy / ${loan.rate}%</div>
+            </div>
+          </div>
+          
+          <div class="progress-wrap">
+            <div class="progress-bar"><div class="progress-fill" style="width: ${pct}%"></div></div>
+            <div class="progress-text">
+              <span>Progress</span>
+              <span>${pct.toFixed(1)}%</span>
+            </div>
+          </div>
+        </div>
+      `;
+            });
+
+            listEl.innerHTML = html;
+
+            document.getElementById('kpiTotalDebt').innerText = fmtM(globalDebt);
+            document.getElementById('kpiTotalPaid').innerText = fmtM(globalPaid);
+            document.getElementById('kpiTotalRemain').innerText = fmtM(globalRemain);
+        }
+
+        // --- DETAIL VIEW ---
+        function openLoanDetail(id) {
+            currentLoanId = id;
+            showView('Detail');
+        }
+
+        function renderDetail() {
+            let loan = db.loans.find(l => l.id === currentLoanId);
+            if (!loan) return showView('Home');
+
+            document.getElementById('detTitle').innerText = loan.name;
+            document.getElementById('detBank').innerText = loan.bank || loan.rate + '% | ' + loan.term + ' oy';
+
+            // Calculates
+            let lPaidPrin = loan.schedule.reduce((sum, s) => s.isPaid ? sum + s.principal : sum, 0);
+            let lRemainPrin = loan.initialAmount - lPaidPrin;
+
+            document.getElementById('detInitial').innerText = fmtM(loan.initialAmount);
+            document.getElementById('detRemain').innerText = fmtM(lRemainPrin);
+
+            // Table
+            let tBody = '';
+            const tb = document.getElementById('detTableBody');
+
+            loan.schedule.forEach((s, idx) => {
+                if (s.isPaid) {
+                    tBody += `
+          <tr>
+            <td>${s.period}</td>
+            <td style="text-align:left;color:#f1f5f9">${s.date}</td>
+            <td>${fmt(s.balanceOrigin)}</td>
+            <td>${fmt(s.principal)}</td>
+            <td>${fmt(s.interest)}</td>
+            <td>${fmt(s.totalScheduled)}</td>
+            <td class="paid-text">✓ To'landi</td>
+          </tr>
+        `;
+                } else {
+                    // Unpaid
+                    tBody += `
+          <tr>
+            <td>${s.period}</td>
+            <td style="text-align:left;color:#f1f5f9">${s.date}</td>
+            <td>${fmt(s.balanceOrigin)}</td>
+            <td>${fmt(s.principal)}</td>
+            <td>${fmt(s.interest)}</td>
+            <td><strong class="text-amber">${fmt(s.totalScheduled)}</strong></td>
+            <td style="text-align:center;">
+              <button class="btn-pay-sm" onclick="markPaid(${idx})">To'lash</button>
+            </td>
+          </tr>
+        `;
+                }
+            });
+            tb.innerHTML = tBody;
+
+            // Update Charts
+            updateCharts(loan);
+        }
+
+        function markPaid(idx) {
+            let loan = db.loans.find(l => l.id === currentLoanId);
+            loan.schedule[idx].isPaid = true;
+            loan.schedule[idx].paidAmount = loan.schedule[idx].totalScheduled;
+            saveDb();
+            renderDetail();
+        }
+
+        function focusNextPayment() {
+            // Scroll to first unpaid button
+            let btn = document.querySelector('.btn-pay-sm');
+            if (btn) {
+                btn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                // Optional: Add a pulse effect
+                btn.style.boxShadow = '0 0 0 4px rgba(99,102,241,0.5)';
+                setTimeout(() => btn.style.boxShadow = 'none', 1000);
+            } else {
+                alert("Hamma to'lovlar qilingan! 🎉");
+            }
+        }
+
+        function deleteCurrentLoan() {
+            if (confirm("Rostan ham bu kreditni o'chirasizmi?")) {
+                db.loans = db.loans.filter(l => l.id !== currentLoanId);
+                saveDb();
+                showView('Home');
+            }
+        }
+
+        // --- CHARTS ---
+        const gridColor = 'rgba(255,255,255,.05)';
+
+        function updateCharts(loan) {
+            const labels = loan.schedule.map(s => `Oy ${s.period}`);
+            const balances = loan.schedule.map(s => s.balanceOrigin);
+            const payments = loan.schedule.map(s => s.totalScheduled);
+
+            let paidPrin = loan.schedule.reduce((sum, s) => s.isPaid ? sum + s.principal : sum, 0);
+            let remPrin = loan.initialAmount - paidPrin;
+
+            // Line Chart (Qoldiq)
+            if (detChartLineIns) detChartLineIns.destroy();
+
+            detChartLineIns = new Chart(document.getElementById('detChartLine'), {
+                type: 'line',
+                data: {
+                    labels,
+                    datasets: [{
+                        label: 'Qoldiq (UZS)',
+                        data: balances,
+                        borderColor: '#10b981',
+                        borderWidth: 2,
+                        pointRadius: 0,
+                        tension: 0.3
+                    }]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { display: false }, ticks: { font: { size: 9 } } },
+                        y: { grid: { color: gridColor }, ticks: { callback: v => fmtM(v) } }
+                    }
+                }
+            });
+
+            // Donut
+            if (detChartDonutIns) detChartDonutIns.destroy();
+
+            detChartDonutIns = new Chart(document.getElementById('detChartDonut'), {
+                type: 'doughnut',
+                data: {
+                    labels: ["To'landi", "Qoldiq"],
+                    datasets: [{
+                        data: [paidPrin, remPrin],
+                        backgroundColor: ['#6366f1', '#1f2937'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false, cutout: '75%',
+                    plugins: {
+                        legend: { position: 'bottom', labels: { color: '#94a3b8', boxWidth: 12 } }
+                    }
+                }
+            });
+        }
+
+        // Initialize
+        renderHome();
+
+    </script>
+</body>
+
+</html>

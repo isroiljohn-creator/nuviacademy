@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["(python311.withPackages (ps: with ps; [pip setuptools wheel]))", "gcc", "postgresql", "rustc", "cargo", "pkg-config", "openssl", "nodejs_20"]
+
+[phases.install]
+cmds = ["python3.11 -m pip install -r requirements.txt", "cd miniapp/admin-dashboard && npm install"]
+
+[phases.build]
+cmds = ["mkdir -p api/static/admin", "cd miniapp/admin-dashboard && npm run build"]

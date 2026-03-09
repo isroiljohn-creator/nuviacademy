@@ -1,0 +1,5642 @@
+[
+  {
+    "name_uz": "nonushta taomi 1",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 205,
+    "protein_g": 11.0,
+    "fat_g": 6.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 1.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 1.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 1.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 2",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 210,
+    "protein_g": 12.0,
+    "fat_g": 7.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 2.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 2.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 2.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 3",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 215,
+    "protein_g": 13.0,
+    "fat_g": 5.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 3.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 3.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 3.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 4",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 220,
+    "protein_g": 14.0,
+    "fat_g": 6.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 4.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 4.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 4.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 5",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 225,
+    "protein_g": 10.0,
+    "fat_g": 7.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 5.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 5.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 5.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 6",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 230,
+    "protein_g": 11.0,
+    "fat_g": 5.0,
+    "carbs_g": 36.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 6.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 6.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 6.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 7",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 235,
+    "protein_g": 12.0,
+    "fat_g": 6.0,
+    "carbs_g": 37.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 7.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 7.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 7.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 8",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 240,
+    "protein_g": 13.0,
+    "fat_g": 7.0,
+    "carbs_g": 38.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 8.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 8.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 8.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 9",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 245,
+    "protein_g": 14.0,
+    "fat_g": 5.0,
+    "carbs_g": 39.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 9.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 9.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 9.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 10",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 10.0,
+    "fat_g": 6.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 10.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 10.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 10.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 11",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 255,
+    "protein_g": 11.0,
+    "fat_g": 7.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 11.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 11.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 11.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 12",
+    "meal_type": "breakfast",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 260,
+    "protein_g": 12.0,
+    "fat_g": 5.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 12.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 12.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 12.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 13",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 265,
+    "protein_g": 13.0,
+    "fat_g": 6.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 13.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 13.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 13.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 14",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 270,
+    "protein_g": 14.0,
+    "fat_g": 7.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 14.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 14.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 14.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 15",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 275,
+    "protein_g": 10.0,
+    "fat_g": 5.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 15.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 15.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 15.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 16",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 280,
+    "protein_g": 11.0,
+    "fat_g": 6.0,
+    "carbs_g": 36.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 16.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 16.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 16.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 17",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 285,
+    "protein_g": 12.0,
+    "fat_g": 7.0,
+    "carbs_g": 37.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 17.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 17.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 17.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 18",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 290,
+    "protein_g": 13.0,
+    "fat_g": 5.0,
+    "carbs_g": 38.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 18.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 18.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 18.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 19",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 295,
+    "protein_g": 14.0,
+    "fat_g": 6.0,
+    "carbs_g": 39.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 19.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 19.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 19.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 20",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 10.0,
+    "fat_g": 7.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 20.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 20.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 20.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 21",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 305,
+    "protein_g": 11.0,
+    "fat_g": 5.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 21.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 21.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 21.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 22",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 310,
+    "protein_g": 12.0,
+    "fat_g": 6.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 22.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 22.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 22.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 23",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 315,
+    "protein_g": 13.0,
+    "fat_g": 7.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 23.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 23.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 23.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 24",
+    "meal_type": "breakfast",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 320,
+    "protein_g": 14.0,
+    "fat_g": 5.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 24.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 24.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 24.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 25",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 325,
+    "protein_g": 10.0,
+    "fat_g": 6.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 25.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 25.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 25.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 26",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 330,
+    "protein_g": 11.0,
+    "fat_g": 7.0,
+    "carbs_g": 36.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 26.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 26.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 26.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 27",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 335,
+    "protein_g": 12.0,
+    "fat_g": 5.0,
+    "carbs_g": 37.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 27.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 27.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 27.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 28",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 340,
+    "protein_g": 13.0,
+    "fat_g": 6.0,
+    "carbs_g": 38.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 28.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 28.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 28.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 29",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 345,
+    "protein_g": 14.0,
+    "fat_g": 7.0,
+    "carbs_g": 39.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 29.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 29.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 29.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 30",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 10.0,
+    "fat_g": 5.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 30.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 30.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 30.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 31",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 355,
+    "protein_g": 11.0,
+    "fat_g": 6.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 31.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 31.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 31.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 32",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 360,
+    "protein_g": 12.0,
+    "fat_g": 7.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 32.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 32.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 32.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 33",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 365,
+    "protein_g": 13.0,
+    "fat_g": 5.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 33.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 33.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 33.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 34",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 370,
+    "protein_g": 14.0,
+    "fat_g": 6.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 34.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 34.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 34.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "nonushta taomi 35",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 375,
+    "protein_g": 10.0,
+    "fat_g": 7.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq 35.1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 35.2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq 35.3",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 1",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 404,
+    "protein_g": 21.0,
+    "fat_g": 16.0,
+    "carbs_g": 51.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L1.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L1.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L1.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L1.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 2",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 408,
+    "protein_g": 22.0,
+    "fat_g": 17.0,
+    "carbs_g": 52.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L2.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L2.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L2.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L2.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 3",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 412,
+    "protein_g": 23.0,
+    "fat_g": 18.0,
+    "carbs_g": 53.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L3.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L3.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L3.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L3.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 4",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 416,
+    "protein_g": 24.0,
+    "fat_g": 19.0,
+    "carbs_g": 54.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L4.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L4.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L4.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L4.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 5",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 420,
+    "protein_g": 25.0,
+    "fat_g": 20.0,
+    "carbs_g": 55.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L5.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L5.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L5.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L5.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 6",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 424,
+    "protein_g": 26.0,
+    "fat_g": 21.0,
+    "carbs_g": 56.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L6.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L6.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L6.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L6.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 7",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 428,
+    "protein_g": 27.0,
+    "fat_g": 22.0,
+    "carbs_g": 57.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L7.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L7.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L7.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L7.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 8",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 432,
+    "protein_g": 20.0,
+    "fat_g": 23.0,
+    "carbs_g": 58.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L8.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L8.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L8.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L8.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 9",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 436,
+    "protein_g": 21.0,
+    "fat_g": 24.0,
+    "carbs_g": 59.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L9.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L9.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L9.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L9.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 10",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 440,
+    "protein_g": 22.0,
+    "fat_g": 15.0,
+    "carbs_g": 60.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L10.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L10.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L10.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L10.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 11",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 444,
+    "protein_g": 23.0,
+    "fat_g": 16.0,
+    "carbs_g": 61.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L11.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L11.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L11.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L11.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 12",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 448,
+    "protein_g": 24.0,
+    "fat_g": 17.0,
+    "carbs_g": 62.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L12.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L12.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L12.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L12.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 13",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 452,
+    "protein_g": 25.0,
+    "fat_g": 18.0,
+    "carbs_g": 63.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L13.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L13.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L13.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L13.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 14",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 456,
+    "protein_g": 26.0,
+    "fat_g": 19.0,
+    "carbs_g": 64.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L14.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L14.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L14.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L14.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 15",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 kosa",
+    "total_kcal": 460,
+    "protein_g": 27.0,
+    "fat_g": 20.0,
+    "carbs_g": 50.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L15.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L15.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L15.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L15.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 16",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 464,
+    "protein_g": 20.0,
+    "fat_g": 21.0,
+    "carbs_g": 51.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L16.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L16.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L16.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L16.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 17",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 468,
+    "protein_g": 21.0,
+    "fat_g": 22.0,
+    "carbs_g": 52.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L17.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L17.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L17.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L17.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 18",
+    "meal_type": "lunch",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 472,
+    "protein_g": 22.0,
+    "fat_g": 23.0,
+    "carbs_g": 53.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L18.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L18.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L18.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L18.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 19",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 476,
+    "protein_g": 23.0,
+    "fat_g": 24.0,
+    "carbs_g": 54.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L19.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L19.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L19.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L19.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 20",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 480,
+    "protein_g": 24.0,
+    "fat_g": 15.0,
+    "carbs_g": 55.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L20.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L20.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L20.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L20.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 21",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 484,
+    "protein_g": 25.0,
+    "fat_g": 16.0,
+    "carbs_g": 56.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L21.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L21.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L21.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L21.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 22",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 488,
+    "protein_g": 26.0,
+    "fat_g": 17.0,
+    "carbs_g": 57.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L22.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L22.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L22.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L22.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 23",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 492,
+    "protein_g": 27.0,
+    "fat_g": 18.0,
+    "carbs_g": 58.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L23.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L23.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L23.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L23.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 24",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 496,
+    "protein_g": 20.0,
+    "fat_g": 19.0,
+    "carbs_g": 59.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L24.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L24.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L24.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L24.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 25",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 500,
+    "protein_g": 21.0,
+    "fat_g": 20.0,
+    "carbs_g": 60.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L25.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L25.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L25.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L25.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 26",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 504,
+    "protein_g": 22.0,
+    "fat_g": 21.0,
+    "carbs_g": 61.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L26.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L26.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L26.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L26.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 27",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 508,
+    "protein_g": 23.0,
+    "fat_g": 22.0,
+    "carbs_g": 62.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L27.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L27.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L27.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L27.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 28",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 512,
+    "protein_g": 24.0,
+    "fat_g": 23.0,
+    "carbs_g": 63.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L28.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L28.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L28.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L28.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 29",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 516,
+    "protein_g": 25.0,
+    "fat_g": 24.0,
+    "carbs_g": 64.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L29.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L29.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L29.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L29.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 30",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 520,
+    "protein_g": 26.0,
+    "fat_g": 15.0,
+    "carbs_g": 50.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L30.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L30.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L30.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L30.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 31",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 524,
+    "protein_g": 27.0,
+    "fat_g": 16.0,
+    "carbs_g": 51.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L31.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L31.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L31.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L31.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 32",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 528,
+    "protein_g": 20.0,
+    "fat_g": 17.0,
+    "carbs_g": 52.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L32.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L32.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L32.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L32.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 33",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 532,
+    "protein_g": 21.0,
+    "fat_g": 18.0,
+    "carbs_g": 53.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L33.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L33.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L33.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L33.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 34",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 536,
+    "protein_g": 22.0,
+    "fat_g": 19.0,
+    "carbs_g": 54.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L34.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L34.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L34.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L34.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 35",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 kosa",
+    "total_kcal": 540,
+    "protein_g": 23.0,
+    "fat_g": 20.0,
+    "carbs_g": 55.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L35.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L35.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L35.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L35.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 36",
+    "meal_type": "lunch",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 544,
+    "protein_g": 24.0,
+    "fat_g": 21.0,
+    "carbs_g": 56.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L36.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L36.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L36.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L36.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 37",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 548,
+    "protein_g": 25.0,
+    "fat_g": 22.0,
+    "carbs_g": 57.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L37.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L37.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L37.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L37.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 38",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 552,
+    "protein_g": 26.0,
+    "fat_g": 23.0,
+    "carbs_g": 58.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L38.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L38.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L38.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L38.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 39",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 556,
+    "protein_g": 27.0,
+    "fat_g": 24.0,
+    "carbs_g": 59.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L39.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L39.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L39.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L39.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 40",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 560,
+    "protein_g": 20.0,
+    "fat_g": 15.0,
+    "carbs_g": 60.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L40.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L40.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L40.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L40.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 41",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 564,
+    "protein_g": 21.0,
+    "fat_g": 16.0,
+    "carbs_g": 61.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L41.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L41.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L41.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L41.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 42",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 568,
+    "protein_g": 22.0,
+    "fat_g": 17.0,
+    "carbs_g": 62.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L42.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L42.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L42.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L42.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 43",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 572,
+    "protein_g": 23.0,
+    "fat_g": 18.0,
+    "carbs_g": 63.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L43.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L43.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L43.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L43.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 44",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 576,
+    "protein_g": 24.0,
+    "fat_g": 19.0,
+    "carbs_g": 64.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L44.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L44.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L44.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L44.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 45",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 580,
+    "protein_g": 25.0,
+    "fat_g": 20.0,
+    "carbs_g": 50.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L45.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L45.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L45.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L45.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 46",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 584,
+    "protein_g": 26.0,
+    "fat_g": 21.0,
+    "carbs_g": 51.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L46.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L46.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L46.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L46.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 47",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 588,
+    "protein_g": 27.0,
+    "fat_g": 22.0,
+    "carbs_g": 52.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L47.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L47.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L47.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L47.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 48",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 592,
+    "protein_g": 20.0,
+    "fat_g": 23.0,
+    "carbs_g": 53.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L48.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L48.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L48.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L48.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 49",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 596,
+    "protein_g": 21.0,
+    "fat_g": 24.0,
+    "carbs_g": 54.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L49.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L49.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L49.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L49.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 50",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 600,
+    "protein_g": 22.0,
+    "fat_g": 15.0,
+    "carbs_g": 55.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L50.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L50.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L50.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L50.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 51",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 604,
+    "protein_g": 23.0,
+    "fat_g": 16.0,
+    "carbs_g": 56.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L51.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L51.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L51.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L51.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 52",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 608,
+    "protein_g": 24.0,
+    "fat_g": 17.0,
+    "carbs_g": 57.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L52.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L52.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L52.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L52.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 53",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 612,
+    "protein_g": 25.0,
+    "fat_g": 18.0,
+    "carbs_g": 58.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L53.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L53.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L53.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L53.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 54",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 616,
+    "protein_g": 26.0,
+    "fat_g": 19.0,
+    "carbs_g": 59.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L54.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L54.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L54.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L54.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tushlik taomi 55",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 620,
+    "protein_g": 27.0,
+    "fat_g": 20.0,
+    "carbs_g": 60.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq L55.1",
+        "grams": 150,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L55.2",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L55.3",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq L55.4",
+        "grams": 20,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 1",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 306,
+    "protein_g": 26.0,
+    "fat_g": 11.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D1.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D1.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D1.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 2",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 312,
+    "protein_g": 27.0,
+    "fat_g": 12.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D2.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D2.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D2.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 3",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 318,
+    "protein_g": 28.0,
+    "fat_g": 13.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D3.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D3.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D3.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 4",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 324,
+    "protein_g": 29.0,
+    "fat_g": 14.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D4.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D4.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D4.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 5",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 330,
+    "protein_g": 30.0,
+    "fat_g": 15.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D5.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D5.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D5.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 6",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 336,
+    "protein_g": 31.0,
+    "fat_g": 16.0,
+    "carbs_g": 36.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D6.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D6.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D6.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 7",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 342,
+    "protein_g": 32.0,
+    "fat_g": 17.0,
+    "carbs_g": 37.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D7.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D7.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D7.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 8",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 348,
+    "protein_g": 33.0,
+    "fat_g": 18.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D8.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D8.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D8.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 9",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 354,
+    "protein_g": 34.0,
+    "fat_g": 19.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D9.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D9.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D9.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 10",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 360,
+    "protein_g": 25.0,
+    "fat_g": 20.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D10.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D10.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D10.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 11",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 366,
+    "protein_g": 26.0,
+    "fat_g": 21.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D11.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D11.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D11.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 12",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 porsiya",
+    "total_kcal": 372,
+    "protein_g": 27.0,
+    "fat_g": 10.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D12.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D12.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D12.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 13",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 378,
+    "protein_g": 28.0,
+    "fat_g": 11.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D13.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D13.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D13.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 14",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 384,
+    "protein_g": 29.0,
+    "fat_g": 12.0,
+    "carbs_g": 36.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D14.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D14.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D14.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 15",
+    "meal_type": "dinner",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 390,
+    "protein_g": 30.0,
+    "fat_g": 13.0,
+    "carbs_g": 37.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D15.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D15.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D15.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 16",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 396,
+    "protein_g": 31.0,
+    "fat_g": 14.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D16.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D16.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D16.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 17",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 402,
+    "protein_g": 32.0,
+    "fat_g": 15.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D17.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D17.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D17.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 18",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 408,
+    "protein_g": 33.0,
+    "fat_g": 16.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D18.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D18.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D18.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 19",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 414,
+    "protein_g": 34.0,
+    "fat_g": 17.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D19.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D19.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D19.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 20",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 420,
+    "protein_g": 25.0,
+    "fat_g": 18.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D20.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D20.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D20.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 21",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 426,
+    "protein_g": 26.0,
+    "fat_g": 19.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D21.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D21.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D21.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 22",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 432,
+    "protein_g": 27.0,
+    "fat_g": 20.0,
+    "carbs_g": 36.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D22.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D22.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D22.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 23",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 438,
+    "protein_g": 28.0,
+    "fat_g": 21.0,
+    "carbs_g": 37.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D23.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D23.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D23.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 24",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 444,
+    "protein_g": 29.0,
+    "fat_g": 10.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D24.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D24.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D24.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 25",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 porsiya",
+    "total_kcal": 450,
+    "protein_g": 30.0,
+    "fat_g": 11.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D25.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D25.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D25.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 26",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 456,
+    "protein_g": 31.0,
+    "fat_g": 12.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D26.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D26.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D26.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 27",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 462,
+    "protein_g": 32.0,
+    "fat_g": 13.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D27.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D27.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D27.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 28",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 468,
+    "protein_g": 33.0,
+    "fat_g": 14.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D28.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D28.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D28.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 29",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 474,
+    "protein_g": 34.0,
+    "fat_g": 15.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D29.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D29.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D29.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 30",
+    "meal_type": "dinner",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 480,
+    "protein_g": 25.0,
+    "fat_g": 16.0,
+    "carbs_g": 36.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D30.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D30.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D30.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 31",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 486,
+    "protein_g": 26.0,
+    "fat_g": 17.0,
+    "carbs_g": 37.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D31.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D31.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D31.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 32",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 492,
+    "protein_g": 27.0,
+    "fat_g": 18.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D32.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D32.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D32.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 33",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 498,
+    "protein_g": 28.0,
+    "fat_g": 19.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D33.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D33.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D33.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 34",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 504,
+    "protein_g": 29.0,
+    "fat_g": 20.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D34.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D34.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D34.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 35",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 510,
+    "protein_g": 30.0,
+    "fat_g": 21.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D35.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D35.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D35.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 36",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 516,
+    "protein_g": 31.0,
+    "fat_g": 10.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D36.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D36.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D36.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 37",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 522,
+    "protein_g": 32.0,
+    "fat_g": 11.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D37.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D37.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D37.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 38",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 528,
+    "protein_g": 33.0,
+    "fat_g": 12.0,
+    "carbs_g": 36.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D38.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D38.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D38.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 39",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 534,
+    "protein_g": 34.0,
+    "fat_g": 13.0,
+    "carbs_g": 37.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D39.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D39.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D39.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 40",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 540,
+    "protein_g": 25.0,
+    "fat_g": 14.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D40.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D40.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D40.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 41",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 546,
+    "protein_g": 26.0,
+    "fat_g": 15.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D41.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D41.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D41.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 42",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 552,
+    "protein_g": 27.0,
+    "fat_g": 16.0,
+    "carbs_g": 32.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D42.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D42.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D42.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 43",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 558,
+    "protein_g": 28.0,
+    "fat_g": 17.0,
+    "carbs_g": 33.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D43.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D43.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D43.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 44",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 564,
+    "protein_g": 29.0,
+    "fat_g": 18.0,
+    "carbs_g": 34.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D44.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D44.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D44.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "kechki taom 45",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 570,
+    "protein_g": 30.0,
+    "fat_g": 19.0,
+    "carbs_g": 35.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq D45.1",
+        "grams": 120,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D45.2",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq D45.3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 1",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 102,
+    "protein_g": 3.0,
+    "fat_g": 2.0,
+    "carbs_g": 21.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S1.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S1.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S1.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 2",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 104,
+    "protein_g": 4.0,
+    "fat_g": 1.0,
+    "carbs_g": 22.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S2.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S2.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S2.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 3",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 106,
+    "protein_g": 2.0,
+    "fat_g": 2.0,
+    "carbs_g": 23.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S3.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S3.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S3.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 4",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 108,
+    "protein_g": 3.0,
+    "fat_g": 1.0,
+    "carbs_g": 24.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S4.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S4.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S4.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 5",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 110,
+    "protein_g": 4.0,
+    "fat_g": 2.0,
+    "carbs_g": 20.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S5.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S5.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S5.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 6",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 112,
+    "protein_g": 2.0,
+    "fat_g": 1.0,
+    "carbs_g": 21.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S6.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S6.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S6.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 7",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 114,
+    "protein_g": 3.0,
+    "fat_g": 2.0,
+    "carbs_g": 22.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S7.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S7.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S7.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 8",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 116,
+    "protein_g": 4.0,
+    "fat_g": 1.0,
+    "carbs_g": 23.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S8.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S8.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S8.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 9",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 118,
+    "protein_g": 2.0,
+    "fat_g": 2.0,
+    "carbs_g": 24.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S9.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S9.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S9.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 10",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "portion_type": "1 dona",
+    "total_kcal": 120,
+    "protein_g": 3.0,
+    "fat_g": 1.0,
+    "carbs_g": 20.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S10.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S10.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S10.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 11",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 122,
+    "protein_g": 4.0,
+    "fat_g": 2.0,
+    "carbs_g": 21.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S11.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S11.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S11.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 12",
+    "meal_type": "snack",
+    "goal_tag": "weight_loss",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 124,
+    "protein_g": 2.0,
+    "fat_g": 1.0,
+    "carbs_g": 22.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S12.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S12.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S12.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 13",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 126,
+    "protein_g": 3.0,
+    "fat_g": 2.0,
+    "carbs_g": 23.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S13.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S13.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S13.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 14",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 128,
+    "protein_g": 4.0,
+    "fat_g": 1.0,
+    "carbs_g": 24.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S14.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S14.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S14.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 15",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 130,
+    "protein_g": 2.0,
+    "fat_g": 2.0,
+    "carbs_g": 20.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S15.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S15.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S15.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 16",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 132,
+    "protein_g": 3.0,
+    "fat_g": 1.0,
+    "carbs_g": 21.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S16.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S16.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S16.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 17",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 134,
+    "protein_g": 4.0,
+    "fat_g": 2.0,
+    "carbs_g": 22.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S17.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S17.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S17.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 18",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 136,
+    "protein_g": 2.0,
+    "fat_g": 1.0,
+    "carbs_g": 23.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S18.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S18.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S18.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 19",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 138,
+    "protein_g": 3.0,
+    "fat_g": 2.0,
+    "carbs_g": 24.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S19.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S19.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S19.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 20",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "portion_type": "1 dona",
+    "total_kcal": 140,
+    "protein_g": 4.0,
+    "fat_g": 1.0,
+    "carbs_g": 20.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S20.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S20.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S20.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 21",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 142,
+    "protein_g": 2.0,
+    "fat_g": 2.0,
+    "carbs_g": 21.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S21.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S21.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S21.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 22",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 144,
+    "protein_g": 3.0,
+    "fat_g": 1.0,
+    "carbs_g": 22.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S22.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S22.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S22.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 23",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 146,
+    "protein_g": 4.0,
+    "fat_g": 2.0,
+    "carbs_g": 23.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S23.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S23.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S23.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 24",
+    "meal_type": "snack",
+    "goal_tag": "muscle_gain",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 148,
+    "protein_g": 2.0,
+    "fat_g": 1.0,
+    "carbs_g": 24.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S24.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S24.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S24.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 25",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 150,
+    "protein_g": 3.0,
+    "fat_g": 2.0,
+    "carbs_g": 20.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S25.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S25.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S25.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 26",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 152,
+    "protein_g": 4.0,
+    "fat_g": 1.0,
+    "carbs_g": 21.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S26.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S26.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S26.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 27",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 154,
+    "protein_g": 2.0,
+    "fat_g": 2.0,
+    "carbs_g": 22.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S27.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S27.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S27.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 28",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 156,
+    "protein_g": 3.0,
+    "fat_g": 1.0,
+    "carbs_g": 23.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S28.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S28.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S28.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 29",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 158,
+    "protein_g": 4.0,
+    "fat_g": 2.0,
+    "carbs_g": 24.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S29.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S29.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S29.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 30",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 160,
+    "protein_g": 2.0,
+    "fat_g": 1.0,
+    "carbs_g": 20.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S30.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S30.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S30.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 31",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 162,
+    "protein_g": 3.0,
+    "fat_g": 2.0,
+    "carbs_g": 21.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S31.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S31.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S31.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 32",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 164,
+    "protein_g": 4.0,
+    "fat_g": 1.0,
+    "carbs_g": 22.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S32.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S32.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S32.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 33",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 166,
+    "protein_g": 2.0,
+    "fat_g": 2.0,
+    "carbs_g": 23.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S33.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S33.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S33.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 34",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 168,
+    "protein_g": 3.0,
+    "fat_g": 1.0,
+    "carbs_g": 24.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S34.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S34.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S34.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "tamaddi 35",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 170,
+    "protein_g": 4.0,
+    "fat_g": 2.0,
+    "carbs_g": 20.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "masalliq S35.1",
+        "grams": 80,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S35.2",
+        "grams": 40,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "masalliq S35.3",
+        "grams": 10,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Osh (Palov)",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 650,
+    "protein_g": 25.0,
+    "fat_g": 35.0,
+    "carbs_g": 60.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Osh (Palov) masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Osh (Palov) masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Osh (Palov) masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Mastava",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 420,
+    "protein_g": 15.0,
+    "fat_g": 20.0,
+    "carbs_g": 45.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Mastava masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Mastava masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Mastava masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Lag'mon",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 750,
+    "protein_g": 22.0,
+    "fat_g": 30.0,
+    "carbs_g": 90.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Lag'mon masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Lag'mon masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Lag'mon masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Shurva",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 450,
+    "protein_g": 20.0,
+    "fat_g": 15.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Shurva masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Shurva masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Shurva masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Dimlama",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 450,
+    "protein_g": 28.0,
+    "fat_g": 18.0,
+    "carbs_g": 40.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Dimlama masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Dimlama masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Dimlama masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Qovurma",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 680,
+    "protein_g": 35.0,
+    "fat_g": 45.0,
+    "carbs_g": 30.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Qovurma masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Qovurma masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Qovurma masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Somsa",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 340,
+    "protein_g": 9.0,
+    "fat_g": 20.0,
+    "carbs_g": 31.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Somsa masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Somsa masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Somsa masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Mantu",
+    "meal_type": "dinner",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 480,
+    "protein_g": 18.0,
+    "fat_g": 25.0,
+    "carbs_g": 45.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Mantu masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Mantu masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Mantu masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara",
+    "meal_type": "lunch",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 400,
+    "protein_g": 14.0,
+    "fat_g": 20.0,
+    "carbs_g": 38.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Chuchvara masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Chuchvara masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Chuchvara masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Suli bo'tqasi",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 280,
+    "protein_g": 10.0,
+    "fat_g": 6.0,
+    "carbs_g": 45.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Suli bo'tqasi masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Suli bo'tqasi masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Suli bo'tqasi masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Qaynatilgan tuxum (non bilan)",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 porsiya",
+    "total_kcal": 240,
+    "protein_g": 12.0,
+    "fat_g": 10.0,
+    "carbs_g": 20.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Qaynatilgan tuxum (non bilan) masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Qaynatilgan tuxum (non bilan) masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Qaynatilgan tuxum (non bilan) masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Tvorog (asal bilan)",
+    "meal_type": "breakfast",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 kosa",
+    "total_kcal": 220,
+    "protein_g": 25.0,
+    "fat_g": 5.0,
+    "carbs_g": 15.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Tvorog (asal bilan) masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Tvorog (asal bilan) masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Tvorog (asal bilan) masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Olma",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 95,
+    "protein_g": 1.0,
+    "fat_g": 0.0,
+    "carbs_g": 25.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Olma masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Olma masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Olma masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Banan",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 105,
+    "protein_g": 1.0,
+    "fat_g": 0.0,
+    "carbs_g": 27.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Banan masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Banan masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Banan masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  },
+  {
+    "name_uz": "Yong'oq",
+    "meal_type": "snack",
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "portion_type": "1 dona",
+    "total_kcal": 190,
+    "protein_g": 6.0,
+    "fat_g": 17.0,
+    "carbs_g": 5.0,
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "Yong'oq masallig'i 1",
+        "grams": 100,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Yong'oq masallig'i 2",
+        "grams": 50,
+        "fdc_id": null
+      },
+      {
+        "name_uz": "Yong'oq masallig'i 3",
+        "grams": 30,
+        "fdc_id": null
+      }
+    ]
+  }
+]

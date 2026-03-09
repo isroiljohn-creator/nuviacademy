@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0f1012" />
+
+  <title>YASHA Admin | Analytics Dashboard</title>
+  <meta name="description" content="YASHA Admin Analytics - Real-time investor-grade metrics dashboard" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="author" content="YASHA" />
+
+  <meta property="og:title" content="YASHA Admin Dashboard" />
+  <meta property="og:description" content="Real-time investor-grade analytics for YASHA fitness bot" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Telegram WebApp Script -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <!-- Preconnect to fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <script>
+    window.onerror = function (msg, url, line, col, error) {
+      document.body.innerHTML = `
+          <div style="padding: 20px; color: #ff5555; background: #1a1a1a; font-family: monospace; height: 100vh; overflow: auto;">
+            <h2 style="margin-top: 0;">CRITICAL INIT ERROR</h2>
+            <p><strong>Message:</strong> ${msg}</p>
+            <p><strong>Location:</strong> ${url}:${line}:${col}</p>
+            <pre style="white-space: pre-wrap;">${error ? error.stack : 'No stack trace'}</pre>
+          </div>
+        `;
+      return false;
+    };
+
+    window.addEventListener('unhandledrejection', function (event) {
+      document.body.innerHTML = `
+          <div style="padding: 20px; color: #ffaa55; background: #1a1a1a; font-family: monospace; height: 100vh; overflow: auto;">
+            <h2 style="margin-top: 0;">UNHANDLED PROMISE REJECTION</h2>
+            <p><strong>Reason:</strong> ${event.reason}</p>
+          </div>
+        `;
+    });
+
+    // Capture Phase listener for resource loading errors (which don't bubble)
+    window.addEventListener('error', function (event) {
+      if (event.target && (event.target.tagName === 'SCRIPT' || event.target.tagName === 'LINK')) {
+        document.body.innerHTML = `
+          <div style="padding: 20px; color: #ff5555; background: #1a1a1a; font-family: monospace; height: 100vh; overflow: auto;">
+            <h2 style="margin-top: 0;">RESOURCE LOAD ERROR</h2>
+            <p><strong>Failed to load:</strong> ${event.target.src || event.target.href}</p>
+            <p><strong>Tag:</strong> ${event.target.tagName}</p>
+          </div>
+        `;
+      }
+    }, true);
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

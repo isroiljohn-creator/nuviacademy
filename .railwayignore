@@ -1,0 +1,9 @@
+.git
+.venv
+.venv_tmp
+backups
+*.zip
+*.db
+isroil-aibot
+yasha-insights
+frontend

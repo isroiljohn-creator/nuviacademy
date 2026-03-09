@@ -1,0 +1,4106 @@
+[
+  {
+    "name_uz": "Qaynatilgan tuxum (2 dona)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 155,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qaynatilgan tuxum (2 dona) (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 124,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qovurilgan tuxum",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 180,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qovurilgan tuxum (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 144,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tuxumli omlet (pomidor bilan)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 200,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tuxumli omlet (pomidor bilan) (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 160,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tuxum barak (Xorazmcha)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tuxum barak (Xorazmcha) (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 280,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Bedana tuxumi (5 dona)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 80,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Bedana tuxumi (5 dona) (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 64,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tuxum va sosiska",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 320,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tuxum va sosiska (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 256,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Pishloqli omlet",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Pishloqli omlet (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 200,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Ko'katli quymoq",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 190,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Ko'katli quymoq (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 152,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tuxum va tost",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 280,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tuxum va tost (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 224,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Shakshuka (O'zbekcha)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 12,
+    "fat_g": 10,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Shakshuka (O'zbekcha) (Diet)",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 240,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 5,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tuxum",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Suli bo'tqasi (suvda)",
+    "meal_type": "breakfast",
+    "portion_type": "1 kosa",
+    "total_kcal": 150,
+    "protein_g": 8,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Suli bo'tqasi (suvda) (Sport)",
+    "meal_type": "breakfast",
+    "portion_type": "1 katta kosa",
+    "total_kcal": 225,
+    "protein_g": 15,
+    "fat_g": 8,
+    "carbs_g": 60,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 120
+      }
+    ]
+  },
+  {
+    "name_uz": "Suli bo'tqasi (sutda)",
+    "meal_type": "breakfast",
+    "portion_type": "1 kosa",
+    "total_kcal": 250,
+    "protein_g": 8,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Suli bo'tqasi (sutda) (Sport)",
+    "meal_type": "breakfast",
+    "portion_type": "1 katta kosa",
+    "total_kcal": 375,
+    "protein_g": 15,
+    "fat_g": 8,
+    "carbs_g": 60,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 120
+      }
+    ]
+  },
+  {
+    "name_uz": "Guruchli bo'tqa (Shirguruch)",
+    "meal_type": "breakfast",
+    "portion_type": "1 kosa",
+    "total_kcal": 300,
+    "protein_g": 8,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Guruchli bo'tqa (Shirguruch) (Sport)",
+    "meal_type": "breakfast",
+    "portion_type": "1 katta kosa",
+    "total_kcal": 450,
+    "protein_g": 15,
+    "fat_g": 8,
+    "carbs_g": 60,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 120
+      }
+    ]
+  },
+  {
+    "name_uz": "Manniy bo'tqa",
+    "meal_type": "breakfast",
+    "portion_type": "1 kosa",
+    "total_kcal": 280,
+    "protein_g": 8,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Manniy bo'tqa (Sport)",
+    "meal_type": "breakfast",
+    "portion_type": "1 katta kosa",
+    "total_kcal": 420,
+    "protein_g": 15,
+    "fat_g": 8,
+    "carbs_g": 60,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 120
+      }
+    ]
+  },
+  {
+    "name_uz": "Grechka (sut bilan)",
+    "meal_type": "breakfast",
+    "portion_type": "1 kosa",
+    "total_kcal": 220,
+    "protein_g": 8,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Grechka (sut bilan) (Sport)",
+    "meal_type": "breakfast",
+    "portion_type": "1 katta kosa",
+    "total_kcal": 330,
+    "protein_g": 15,
+    "fat_g": 8,
+    "carbs_g": 60,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 120
+      }
+    ]
+  },
+  {
+    "name_uz": "Makkajo'xori bo'tqasi",
+    "meal_type": "breakfast",
+    "portion_type": "1 kosa",
+    "total_kcal": 200,
+    "protein_g": 8,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Makkajo'xori bo'tqasi (Sport)",
+    "meal_type": "breakfast",
+    "portion_type": "1 katta kosa",
+    "total_kcal": 300,
+    "protein_g": 15,
+    "fat_g": 8,
+    "carbs_g": 60,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "guruch",
+        "grams": 120
+      }
+    ]
+  },
+  {
+    "name_uz": "Tvorog va smetana",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 220,
+    "protein_g": 15,
+    "fat_g": 10,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tvorog",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Sirnikilar",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 15,
+    "fat_g": 10,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tvorog",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Qatiq va mevalar",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 150,
+    "protein_g": 15,
+    "fat_g": 10,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tvorog",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Sutli nonushta",
+    "meal_type": "breakfast",
+    "portion_type": "1 porsiya",
+    "total_kcal": 200,
+    "protein_g": 15,
+    "fat_g": 10,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tvorog",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Osh (To'y oshi)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 700,
+    "protein_g": 25,
+    "fat_g": 30,
+    "carbs_g": 80,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Osh (To'y oshi) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 420,
+    "protein_g": 25,
+    "fat_g": 15.0,
+    "carbs_g": 48.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Osh (To'y oshi) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 979,
+    "protein_g": 37,
+    "fat_g": 30,
+    "carbs_g": 112,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Choyxona Palov",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 800,
+    "protein_g": 25,
+    "fat_g": 40,
+    "carbs_g": 85,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Choyxona Palov (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 480,
+    "protein_g": 25,
+    "fat_g": 20.0,
+    "carbs_g": 51.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Choyxona Palov (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 1120,
+    "protein_g": 37,
+    "fat_g": 40,
+    "carbs_g": 118,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Bayram oshi",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 750,
+    "protein_g": 25,
+    "fat_g": 35,
+    "carbs_g": 80,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Bayram oshi (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 450,
+    "protein_g": 25,
+    "fat_g": 17.5,
+    "carbs_g": 48.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Bayram oshi (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 1050,
+    "protein_g": 37,
+    "fat_g": 35,
+    "carbs_g": 112,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Manti (Go'shtli)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 500,
+    "protein_g": 20,
+    "fat_g": 25,
+    "carbs_g": 50,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Manti (Go'shtli) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 300,
+    "protein_g": 20,
+    "fat_g": 12.5,
+    "carbs_g": 30.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Manti (Go'shtli) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 700,
+    "protein_g": 30,
+    "fat_g": 25,
+    "carbs_g": 70,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Manti (Oshqovoqli)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 8,
+    "fat_g": 15,
+    "carbs_g": 50,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Manti (Oshqovoqli) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 210,
+    "protein_g": 8,
+    "fat_g": 7.5,
+    "carbs_g": 30.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Manti (Oshqovoqli) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 489,
+    "protein_g": 12,
+    "fat_g": 15,
+    "carbs_g": 70,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Xonim",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 450,
+    "protein_g": 15,
+    "fat_g": 20,
+    "carbs_g": 55,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Xonim (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 270,
+    "protein_g": 15,
+    "fat_g": 10.0,
+    "carbs_g": 33.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Xonim (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 630,
+    "protein_g": 22,
+    "fat_g": 20,
+    "carbs_g": 77,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Lag'mon (Qovurma)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 650,
+    "protein_g": 25,
+    "fat_g": 30,
+    "carbs_g": 70,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Lag'mon (Qovurma) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 390,
+    "protein_g": 25,
+    "fat_g": 15.0,
+    "carbs_g": 42.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Lag'mon (Qovurma) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 909,
+    "protein_g": 37,
+    "fat_g": 30,
+    "carbs_g": 98,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Lag'mon (Suyuq)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 550,
+    "protein_g": 25,
+    "fat_g": 20,
+    "carbs_g": 60,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Lag'mon (Suyuq) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 330,
+    "protein_g": 25,
+    "fat_g": 10.0,
+    "carbs_g": 36.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Lag'mon (Suyuq) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 770,
+    "protein_g": 37,
+    "fat_g": 20,
+    "carbs_g": 84,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Shivit Oshi",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 550,
+    "protein_g": 20,
+    "fat_g": 20,
+    "carbs_g": 70,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Shivit Oshi (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 330,
+    "protein_g": 20,
+    "fat_g": 10.0,
+    "carbs_g": 42.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Shivit Oshi (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 770,
+    "protein_g": 30,
+    "fat_g": 20,
+    "carbs_g": 98,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Norin",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 700,
+    "protein_g": 35,
+    "fat_g": 30,
+    "carbs_g": 70,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Norin (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 420,
+    "protein_g": 35,
+    "fat_g": 15.0,
+    "carbs_g": 42.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Norin (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 979,
+    "protein_g": 52,
+    "fat_g": 30,
+    "carbs_g": 98,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Beshbarmoq",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 750,
+    "protein_g": 40,
+    "fat_g": 35,
+    "carbs_g": 60,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Beshbarmoq (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 450,
+    "protein_g": 40,
+    "fat_g": 17.5,
+    "carbs_g": 36.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Beshbarmoq (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 1050,
+    "protein_g": 60,
+    "fat_g": 35,
+    "carbs_g": 84,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Haleem (Halim)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 500,
+    "protein_g": 30,
+    "fat_g": 20,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Haleem (Halim) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 300,
+    "protein_g": 30,
+    "fat_g": 10.0,
+    "carbs_g": 24.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Haleem (Halim) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 700,
+    "protein_g": 45,
+    "fat_g": 20,
+    "carbs_g": 56,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "O'rama xonim",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 480,
+    "protein_g": 15,
+    "fat_g": 22,
+    "carbs_g": 55,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "O'rama xonim (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 288,
+    "protein_g": 15,
+    "fat_g": 11.0,
+    "carbs_g": 33.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "O'rama xonim (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 672,
+    "protein_g": 22,
+    "fat_g": 22,
+    "carbs_g": 77,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Do'lma (Tok oshi)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 400,
+    "protein_g": 20,
+    "fat_g": 25,
+    "carbs_g": 30,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Do'lma (Tok oshi) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 240,
+    "protein_g": 20,
+    "fat_g": 12.5,
+    "carbs_g": 18.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Do'lma (Tok oshi) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 560,
+    "protein_g": 30,
+    "fat_g": 25,
+    "carbs_g": 42,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Do'lma (Karam)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 420,
+    "protein_g": 18,
+    "fat_g": 20,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Do'lma (Karam) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 252,
+    "protein_g": 18,
+    "fat_g": 10.0,
+    "carbs_g": 24.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Do'lma (Karam) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 588,
+    "protein_g": 27,
+    "fat_g": 20,
+    "carbs_g": 56,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Qozon kabob",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 850,
+    "protein_g": 45,
+    "fat_g": 50,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qozon kabob (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 510,
+    "protein_g": 45,
+    "fat_g": 25.0,
+    "carbs_g": 24.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Qozon kabob (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 1190,
+    "protein_g": 67,
+    "fat_g": 50,
+    "carbs_g": 56,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Jiz (Jizzax)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 900,
+    "protein_g": 50,
+    "fat_g": 60,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Jiz (Jizzax) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 540,
+    "protein_g": 50,
+    "fat_g": 30.0,
+    "carbs_g": 12.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Jiz (Jizzax) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 1260,
+    "protein_g": 75,
+    "fat_g": 60,
+    "carbs_g": 28,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq sho'rva",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 25,
+    "fat_g": 15,
+    "carbs_g": 30,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq sho'rva (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 210,
+    "protein_g": 25,
+    "fat_g": 7.5,
+    "carbs_g": 18.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq sho'rva (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 489,
+    "protein_g": 37,
+    "fat_g": 15,
+    "carbs_g": 42,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Mastava",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 450,
+    "protein_g": 20,
+    "fat_g": 20,
+    "carbs_g": 45,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Mastava (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 270,
+    "protein_g": 20,
+    "fat_g": 10.0,
+    "carbs_g": 27.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Mastava (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 630,
+    "protein_g": 30,
+    "fat_g": 20,
+    "carbs_g": 62,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Shurva (Qo'y go'shti)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 500,
+    "protein_g": 25,
+    "fat_g": 30,
+    "carbs_g": 30,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Shurva (Qo'y go'shti) (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 300,
+    "protein_g": 25,
+    "fat_g": 15.0,
+    "carbs_g": 18.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Shurva (Qo'y go'shti) (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 700,
+    "protein_g": 37,
+    "fat_g": 30,
+    "carbs_g": 42,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Kufta Shurva",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 480,
+    "protein_g": 25,
+    "fat_g": 25,
+    "carbs_g": 35,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Kufta Shurva (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 288,
+    "protein_g": 25,
+    "fat_g": 12.5,
+    "carbs_g": 21.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Kufta Shurva (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 672,
+    "protein_g": 37,
+    "fat_g": 25,
+    "carbs_g": 49,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Dimlama",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 450,
+    "protein_g": 25,
+    "fat_g": 20,
+    "carbs_g": 35,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Dimlama (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 270,
+    "protein_g": 25,
+    "fat_g": 10.0,
+    "carbs_g": 21.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Dimlama (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 630,
+    "protein_g": 37,
+    "fat_g": 20,
+    "carbs_g": 49,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Moshxo'rda",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 400,
+    "protein_g": 20,
+    "fat_g": 15,
+    "carbs_g": 50,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Moshxo'rda (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 240,
+    "protein_g": 20,
+    "fat_g": 7.5,
+    "carbs_g": 30.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Moshxo'rda (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 560,
+    "protein_g": 30,
+    "fat_g": 15,
+    "carbs_g": 70,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Moshkichiri",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 550,
+    "protein_g": 25,
+    "fat_g": 25,
+    "carbs_g": 60,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Moshkichiri (Parhez)",
+    "meal_type": "lunch",
+    "portion_type": "1 kichik porsiya",
+    "total_kcal": 330,
+    "protein_g": 25,
+    "fat_g": 12.5,
+    "carbs_g": 36.0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Moshkichiri (Power)",
+    "meal_type": "lunch",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 770,
+    "protein_g": 37,
+    "fat_g": 25,
+    "carbs_g": 84,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "go'sht",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq filesi va sabzavotlar",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 30,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq filesi va sabzavotlar (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 244,
+    "protein_g": 30,
+    "fat_g": 3,
+    "carbs_g": 14,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq filesi va sabzavotlar (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 525,
+    "protein_g": 45,
+    "fat_g": 5,
+    "carbs_g": 30,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq filesi va sabzavotlar",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 30,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Baliq (Sudak) dimlama",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 25,
+    "fat_g": 5,
+    "carbs_g": 10,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Baliq (Sudak) dimlama (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 210,
+    "protein_g": 25,
+    "fat_g": 3,
+    "carbs_g": 7,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Baliq (Sudak) dimlama (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 450,
+    "protein_g": 37,
+    "fat_g": 5,
+    "carbs_g": 15,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Baliq (Sudak) dimlama",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 25,
+    "fat_g": 5,
+    "carbs_g": 10,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Gril tovuq (1 oyoq)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 25,
+    "fat_g": 15,
+    "carbs_g": 0,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Gril tovuq (1 oyoq) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 210,
+    "protein_g": 25,
+    "fat_g": 10,
+    "carbs_g": 0,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Gril tovuq (1 oyoq) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 450,
+    "protein_g": 37,
+    "fat_g": 15,
+    "carbs_g": 0,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Gril tovuq (1 oyoq)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 25,
+    "fat_g": 15,
+    "carbs_g": 0,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Go'shtli salat (Malez)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 20,
+    "fat_g": 20,
+    "carbs_g": 10,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Go'shtli salat (Malez) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 244,
+    "protein_g": 20,
+    "fat_g": 14,
+    "carbs_g": 7,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Go'shtli salat (Malez) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 525,
+    "protein_g": 30,
+    "fat_g": 20,
+    "carbs_g": 15,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Go'shtli salat (Malez)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 20,
+    "fat_g": 20,
+    "carbs_g": 10,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Grek salati",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 5,
+    "fat_g": 20,
+    "carbs_g": 10,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Grek salati (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 175,
+    "protein_g": 5,
+    "fat_g": 14,
+    "carbs_g": 7,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Grek salati (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 375,
+    "protein_g": 7,
+    "fat_g": 20,
+    "carbs_g": 15,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Grek salati",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 5,
+    "fat_g": 20,
+    "carbs_g": 10,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Sezar salati (Tovuqli)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 400,
+    "protein_g": 25,
+    "fat_g": 20,
+    "carbs_g": 15,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Sezar salati (Tovuqli) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 280,
+    "protein_g": 25,
+    "fat_g": 14,
+    "carbs_g": 10,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Sezar salati (Tovuqli) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 600,
+    "protein_g": 37,
+    "fat_g": 20,
+    "carbs_g": 22,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Sezar salati (Tovuqli)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 400,
+    "protein_g": 25,
+    "fat_g": 20,
+    "carbs_g": 15,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Karam sho'rva",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 200,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Karam sho'rva (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 140,
+    "protein_g": 10,
+    "fat_g": 7,
+    "carbs_g": 14,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Karam sho'rva (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 300,
+    "protein_g": 15,
+    "fat_g": 10,
+    "carbs_g": 30,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Karam sho'rva",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 200,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Yasmiq sho'rva (Chechevitsa)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 15,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Yasmiq sho'rva (Chechevitsa) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 210,
+    "protein_g": 15,
+    "fat_g": 3,
+    "carbs_g": 28,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Yasmiq sho'rva (Chechevitsa) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 450,
+    "protein_g": 22,
+    "fat_g": 5,
+    "carbs_g": 60,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Yasmiq sho'rva (Chechevitsa)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 15,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qiyma kabob (1 Six)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 20,
+    "fat_g": 25,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qiyma kabob (1 Six) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 244,
+    "protein_g": 20,
+    "fat_g": 17,
+    "carbs_g": 3,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Qiyma kabob (1 Six) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 525,
+    "protein_g": 30,
+    "fat_g": 25,
+    "carbs_g": 7,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Qiyma kabob (1 Six)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 350,
+    "protein_g": 20,
+    "fat_g": 25,
+    "carbs_g": 5,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Jaz kabob (1 Six)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 25,
+    "fat_g": 20,
+    "carbs_g": 2,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Jaz kabob (1 Six) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 210,
+    "protein_g": 25,
+    "fat_g": 14,
+    "carbs_g": 1,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Jaz kabob (1 Six) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 450,
+    "protein_g": 37,
+    "fat_g": 20,
+    "carbs_g": 3,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Jaz kabob (1 Six)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 300,
+    "protein_g": 25,
+    "fat_g": 20,
+    "carbs_g": 2,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq kabob (1 Six)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 25,
+    "fat_g": 12,
+    "carbs_g": 2,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq kabob (1 Six) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 175,
+    "protein_g": 25,
+    "fat_g": 8,
+    "carbs_g": 1,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq kabob (1 Six) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 375,
+    "protein_g": 37,
+    "fat_g": 12,
+    "carbs_g": 3,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Tovuq kabob (1 Six)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 25,
+    "fat_g": 12,
+    "carbs_g": 2,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Sabzavotli ragu",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 5,
+    "fat_g": 10,
+    "carbs_g": 35,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Sabzavotli ragu (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 175,
+    "protein_g": 5,
+    "fat_g": 7,
+    "carbs_g": 24,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Sabzavotli ragu (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 375,
+    "protein_g": 7,
+    "fat_g": 10,
+    "carbs_g": 52,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Sabzavotli ragu",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 5,
+    "fat_g": 10,
+    "carbs_g": 35,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Non va qatiq",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 8,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Non va qatiq (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 175,
+    "protein_g": 8,
+    "fat_g": 3,
+    "carbs_g": 28,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Non va qatiq (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 375,
+    "protein_g": 12,
+    "fat_g": 5,
+    "carbs_g": 60,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Non va qatiq",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 250,
+    "protein_g": 8,
+    "fat_g": 5,
+    "carbs_g": 40,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qovurilgan kartoshka",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 500,
+    "protein_g": 5,
+    "fat_g": 30,
+    "carbs_g": 60,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qovurilgan kartoshka (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 350,
+    "protein_g": 5,
+    "fat_g": 21,
+    "carbs_g": 42,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Qovurilgan kartoshka (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 750,
+    "protein_g": 7,
+    "fat_g": 30,
+    "carbs_g": 90,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Qovurilgan kartoshka",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 500,
+    "protein_g": 5,
+    "fat_g": 30,
+    "carbs_g": 60,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Kartoshka pyure va kotlet",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 450,
+    "protein_g": 20,
+    "fat_g": 20,
+    "carbs_g": 45,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Kartoshka pyure va kotlet (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 315,
+    "protein_g": 20,
+    "fat_g": 14,
+    "carbs_g": 31,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Kartoshka pyure va kotlet (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 675,
+    "protein_g": 30,
+    "fat_g": 20,
+    "carbs_g": 67,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Kartoshka pyure va kotlet",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 450,
+    "protein_g": 20,
+    "fat_g": 20,
+    "carbs_g": 45,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Makaron (Palot)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 500,
+    "protein_g": 15,
+    "fat_g": 20,
+    "carbs_g": 70,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Makaron (Palot) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 350,
+    "protein_g": 15,
+    "fat_g": 14,
+    "carbs_g": 49,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Makaron (Palot) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 750,
+    "protein_g": 22,
+    "fat_g": 20,
+    "carbs_g": 105,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Makaron (Palot)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 500,
+    "protein_g": 15,
+    "fat_g": 20,
+    "carbs_g": 70,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Spagetti Bolonez (O'zbekcha)",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 600,
+    "protein_g": 25,
+    "fat_g": 25,
+    "carbs_g": 75,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Spagetti Bolonez (O'zbekcha) (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 420,
+    "protein_g": 25,
+    "fat_g": 17,
+    "carbs_g": 52,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Spagetti Bolonez (O'zbekcha) (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 900,
+    "protein_g": 37,
+    "fat_g": 25,
+    "carbs_g": 112,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Spagetti Bolonez (O'zbekcha)",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 600,
+    "protein_g": 25,
+    "fat_g": 25,
+    "carbs_g": 75,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara sho'rva",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 450,
+    "protein_g": 20,
+    "fat_g": 20,
+    "carbs_g": 50,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara sho'rva (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 315,
+    "protein_g": 20,
+    "fat_g": 14,
+    "carbs_g": 35,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara sho'rva (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 675,
+    "protein_g": 30,
+    "fat_g": 20,
+    "carbs_g": 75,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara sho'rva",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 450,
+    "protein_g": 20,
+    "fat_g": 20,
+    "carbs_g": 50,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara qovurma",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 600,
+    "protein_g": 20,
+    "fat_g": 35,
+    "carbs_g": 55,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara qovurma (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 420,
+    "protein_g": 20,
+    "fat_g": 24,
+    "carbs_g": 38,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara qovurma (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 900,
+    "protein_g": 30,
+    "fat_g": 35,
+    "carbs_g": 82,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Chuchvara qovurma",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 600,
+    "protein_g": 20,
+    "fat_g": 35,
+    "carbs_g": 55,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Uyg'ur lag'mon",
+    "meal_type": "dinner",
+    "portion_type": "1 porsiya",
+    "total_kcal": 600,
+    "protein_g": 25,
+    "fat_g": 25,
+    "carbs_g": 70,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Uyg'ur lag'mon (Yengil)",
+    "meal_type": "dinner",
+    "portion_type": "0.7 porsiya",
+    "total_kcal": 420,
+    "protein_g": 25,
+    "fat_g": 17,
+    "carbs_g": 49,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "name_uz": "Uyg'ur lag'mon (XXL)",
+    "meal_type": "dinner",
+    "portion_type": "1.5 porsiya",
+    "total_kcal": 900,
+    "protein_g": 37,
+    "fat_g": 25,
+    "carbs_g": 105,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 150
+      }
+    ]
+  },
+  {
+    "name_uz": "Uyg'ur lag'mon",
+    "meal_type": "lunch",
+    "portion_type": "1 porsiya",
+    "total_kcal": 600,
+    "protein_g": 25,
+    "fat_g": 25,
+    "carbs_g": 70,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "tovuq",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Olma (1 dona)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 60,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Olma (1 dona)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 60,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Banan (1 dona)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 105,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Banan (1 dona)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 105,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Yong'oq (30g)",
+    "meal_type": "snack",
+    "portion_type": "1 hovuch",
+    "total_kcal": 200,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Yong'oq (30g) (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 hovuch",
+    "total_kcal": 400,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Bodom (30g)",
+    "meal_type": "snack",
+    "portion_type": "1 hovuch",
+    "total_kcal": 180,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Bodom (30g)",
+    "meal_type": "snack",
+    "portion_type": "1 hovuch",
+    "total_kcal": 180,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Quruq mevalar (Mayiz/Turshak)",
+    "meal_type": "snack",
+    "portion_type": "1 hovuch",
+    "total_kcal": 150,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Quruq mevalar (Mayiz/Turshak)",
+    "meal_type": "snack",
+    "portion_type": "1 hovuch",
+    "total_kcal": 150,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tvorogli desert",
+    "meal_type": "snack",
+    "portion_type": "1 porsiya",
+    "total_kcal": 200,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Tvorogli desert (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 porsiya",
+    "total_kcal": 400,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Proteinli batonchik",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 250,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Proteinli batonchik (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 dona",
+    "total_kcal": 500,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Qatiq (1 stakan)",
+    "meal_type": "snack",
+    "portion_type": "1 stakan",
+    "total_kcal": 100,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Qatiq (1 stakan)",
+    "meal_type": "snack",
+    "portion_type": "1 stakan",
+    "total_kcal": 100,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Kefir (1 stakan)",
+    "meal_type": "snack",
+    "portion_type": "1 stakan",
+    "total_kcal": 110,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Kefir (1 stakan)",
+    "meal_type": "snack",
+    "portion_type": "1 stakan",
+    "total_kcal": 110,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Sut (1 stakan)",
+    "meal_type": "snack",
+    "portion_type": "1 stakan",
+    "total_kcal": 120,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Sut (1 stakan)",
+    "meal_type": "snack",
+    "portion_type": "1 stakan",
+    "total_kcal": 120,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Shokolad (Qora, 20g)",
+    "meal_type": "snack",
+    "portion_type": "2 bo'lak",
+    "total_kcal": 110,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Shokolad (Qora, 20g)",
+    "meal_type": "snack",
+    "portion_type": "2 bo'lak",
+    "total_kcal": 110,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Pechenye (Suli)",
+    "meal_type": "snack",
+    "portion_type": "2 dona",
+    "total_kcal": 150,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Pechenye (Suli)",
+    "meal_type": "snack",
+    "portion_type": "2 dona",
+    "total_kcal": 150,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Toast (Pishloq bilan)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 180,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Toast (Pishloq bilan)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 180,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "weight_loss",
+    "variant": "diet",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Non va qaymoq",
+    "meal_type": "snack",
+    "portion_type": "1 bo'lak",
+    "total_kcal": 300,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Non va qaymoq (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 bo'lak",
+    "total_kcal": 600,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Somsa (Kichik)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 200,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Somsa (Kichik) (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 dona",
+    "total_kcal": 400,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Gummax (1 dona)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 250,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Gummax (1 dona) (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 dona",
+    "total_kcal": 500,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Perashka (Kartoshkali)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 220,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Perashka (Kartoshkali) (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 dona",
+    "total_kcal": 440,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Perashka (Go'shtli)",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 260,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Perashka (Go'shtli) (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 dona",
+    "total_kcal": 520,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Olma pirog (1 bo'lak)",
+    "meal_type": "snack",
+    "portion_type": "1 bo'lak",
+    "total_kcal": 300,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Olma pirog (1 bo'lak) (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 bo'lak",
+    "total_kcal": 600,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  },
+  {
+    "name_uz": "Muzqaymoq",
+    "meal_type": "snack",
+    "portion_type": "1 dona",
+    "total_kcal": 250,
+    "protein_g": 5,
+    "fat_g": 5,
+    "carbs_g": 20,
+    "goal_tag": "maintenance",
+    "variant": "normal",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "name_uz": "Muzqaymoq (Katta)",
+    "meal_type": "snack",
+    "portion_type": "2x 1 dona",
+    "total_kcal": 500,
+    "protein_g": 10,
+    "fat_g": 10,
+    "carbs_g": 40,
+    "goal_tag": "muscle_gain",
+    "variant": "athlete",
+    "is_active": true,
+    "ingredients": [
+      {
+        "name_uz": "meva",
+        "grams": 200
+      }
+    ]
+  }
+]

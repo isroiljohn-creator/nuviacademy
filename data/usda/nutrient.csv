@@ -1,0 +1,5 @@
+id,name,unit_name,nutrient_nbr
+1008,"Energy","KCAL",208
+1003,"Protein","G",203
+1004,"Total lipid (fat)","G",204
+1005,"Carbohydrate, by difference","G",205
