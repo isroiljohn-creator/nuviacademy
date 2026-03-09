@@ -1,0 +1,359 @@
+/* ── Global styles — Mobile-first, Telegram theme ── */
+
+:root {
+  --tg-bg: var(--tg-theme-bg-color, #1a1a2e);
+  --tg-text: var(--tg-theme-text-color, #e0e0e0);
+  --tg-hint: var(--tg-theme-hint-color, #8a8a9a);
+  --tg-link: var(--tg-theme-link-color, #6c63ff);
+  --tg-button: var(--tg-theme-button-color, #6c63ff);
+  --tg-button-text: var(--tg-theme-button-text-color, #ffffff);
+  --tg-secondary-bg: var(--tg-theme-secondary-bg-color, #16213e);
+
+  --gradient-primary: linear-gradient(135deg, #6c63ff 0%, #a855f7 100%);
+  --gradient-success: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+  --gradient-danger: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+  --gradient-gold: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--tg-bg);
+  color: var(--tg-text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── Cards ── */
+.card {
+  background: var(--tg-secondary-bg);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(108, 99, 255, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.card-icon {
+  font-size: 28px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* ── Buttons ── */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 16px 24px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary {
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.btn-success {
+  background: var(--gradient-success);
+  color: white;
+}
+
+.btn-gold {
+  background: var(--gradient-gold);
+  color: #1a1a2e;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ── Progress bar ── */
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 12px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.6s ease;
+}
+
+.progress-fill.purple {
+  background: var(--gradient-primary);
+}
+
+.progress-fill.green {
+  background: var(--gradient-success);
+}
+
+.progress-fill.gold {
+  background: var(--gradient-gold);
+}
+
+/* ── Stats grid ── */
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.stat-item {
+  background: rgba(108, 99, 255, 0.08);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: 800;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--tg-hint);
+  margin-top: 4px;
+}
+
+/* ── Page layout ── */
+.page {
+  padding: 16px;
+  padding-bottom: 100px;
+  max-width: 480px;
+  margin: 0 auto;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* ── Module list ── */
+.module-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  background: var(--tg-secondary-bg);
+  border-radius: var(--radius-sm);
+  margin-bottom: 10px;
+  border: 1px solid rgba(108, 99, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.module-item:active {
+  transform: scale(0.98);
+}
+
+.module-item.locked {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.module-item.completed {
+  border-color: #10b981;
+}
+
+.module-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.module-number.active {
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.module-number.locked {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--tg-hint);
+}
+
+.module-number.completed {
+  background: var(--gradient-success);
+  color: white;
+}
+
+.module-info {
+  flex: 1;
+}
+
+.module-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.module-status {
+  font-size: 12px;
+  color: var(--tg-hint);
+  margin-top: 2px;
+}
+
+/* ── Price display ── */
+.price-display {
+  text-align: center;
+  padding: 24px;
+}
+
+.price-original {
+  font-size: 18px;
+  color: var(--tg-hint);
+  text-decoration: line-through;
+}
+
+.price-final {
+  font-size: 40px;
+  font-weight: 900;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.price-label {
+  font-size: 14px;
+  color: var(--tg-hint);
+}
+
+.discount-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--gradient-success);
+  color: white;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* ── Nav ── */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--tg-secondary-bg);
+  border-top: 1px solid rgba(108, 99, 255, 0.15);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+  z-index: 100;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: var(--tg-hint);
+  font-size: 11px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-item.active {
+  color: var(--tg-link);
+}
+
+.nav-icon {
+  font-size: 22px;
+}
+
+/* ── Referral link ── */
+.referral-link-box {
+  background: rgba(108, 99, 255, 0.1);
+  border: 1px dashed var(--tg-link);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  text-align: center;
+  font-size: 13px;
+  word-break: break-all;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.referral-link-box:active {
+  background: rgba(108, 99, 255, 0.2);
+}
+
+/* ── Loading ── */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(108, 99, 255, 0.2);
+  border-top-color: var(--tg-link);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
