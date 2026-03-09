@@ -1,6 +1,0 @@
-spawn npx surge . --domain yashabot-loan.surge.sh
-expect "email:"
-send "isroiljohn@yashabot.loc\r"
-expect "password:"
-send "yashabot123\r"
-expect eof

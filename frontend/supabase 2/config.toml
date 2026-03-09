@@ -1,4 +1,0 @@
-project_id = "gfgqbzcufohpguquwowd"
-
-[functions.db]
-verify_jwt = false
